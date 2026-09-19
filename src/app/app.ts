@@ -1,5 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { ProductoForm } from './producto-form/producto-form';
 
 @Component({
   selector: 'app-root',

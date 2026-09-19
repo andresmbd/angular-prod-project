@@ -4,7 +4,7 @@ import { ProductoForm } from './producto-form/producto-form';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, ProductoForm],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
